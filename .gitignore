@@ -9,4 +9,3 @@ build/
 *.env
 
 # Исключаем конфиденциальные файлы
-tokmoklive-9dd9c-firebase-adminsdk-k6ks4-603fa1bf36.json
