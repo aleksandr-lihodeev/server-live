@@ -1,1 +1,12 @@
+# Node modules
+node_modules/
+
+# Директории и файлы сборки
+dist/
+build/
+
+# Файлы конфигурации
+*.env
+
+# Исключаем конфиденциальные файлы
 tokmoklive-9dd9c-firebase-adminsdk-k6ks4-603fa1bf36.json
