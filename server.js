@@ -1,6 +1,7 @@
+require('dotenv').config()
 const express = require('express')
 const admin = require('firebase-admin')
-const serviceAccount = require('./tokmoklive-9dd9c-firebase-adminsdk-k6ks4-603fa1bf36.json')
+const serviceAccount = require(process.env.SERVICE_URL)
 
 admin.initializeApp({
 	credential: admin.credential.cert(serviceAccount),
