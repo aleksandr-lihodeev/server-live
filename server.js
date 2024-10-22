@@ -5,7 +5,8 @@ const serviceAccount = require('./tokmoklive-9dd9c-firebase-adminsdk-k6ks4-12a48
 
 admin.initializeApp({
 	credential: admin.credential.cert(serviceAccount),
-	databaseURL: process.env.DB_URL,
+	databaseURL:
+		'https://tokmoklive-9dd9c-default-rtdb.asia-southeast1.firebasedatabase.app',
 })
 
 const app = express()
